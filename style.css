@@ -1,0 +1,124 @@
+.{
+    box-sizing: border-box
+}
+img{
+    border-radius: 50%;
+    width: 165px;
+    height: 165px;
+    border: 6px solid white;
+}
+img:hover {
+    transform: scale(1.1);
+}
+body{
+    background-color: #e8b6ba;
+    margin:0;
+    padding: 25px;
+    background-color: rgb(249, 248, 248);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(14, 0, 0)
+}
+.targeta{
+    width: 100%;
+    max-width: 465px;
+    margin: 30px auto;
+    background-color: rgb(255, 237, 244);
+    border-radius: 5%;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.18);
+}
+.perfil {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 25px;
+}
+.cabecera {
+    background: linear-gradient(120deg,#ff9fc7, #fce4ec) !important;
+    color: #893250;
+    text-aling: center;
+    padding: 35px 20px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cabecera h1 {
+    margin: 25px 0 15px;
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+}
+.cabecera p {
+    margin: 0 0 6px;
+    font-size: 28px;
+}
+.contenido {
+    padding: 22px 26px;
+}
+.descripcion {
+    font-size: 18px;
+    line-height: 1,5;
+    margin: 0;
+    padding: 25px 30px;
+}
+.etiquetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 25px 0 22px;
+}
+.etiquetas span {
+    color:#ca8d9f;
+    border: 1px solid #893250;
+    background-color: rgb(243, 232, 232);
+    border-radius: 25px;
+    padding: 8px 13px;
+    font-size: 14px;
+}
+hr {
+border: none;
+Border-top: 1px solid #ca8dc2;
+margin: 20px 0;
+}
+.contacto {
+    border: 1px solid #0b0003;
+    background-color: rgb(243, 232, 232);
+    border-radius: 20px;
+    padding: 25px;
+    border-radius: 25px;
+}
+.contacto h3 {
+    margin: 0 0 10px;
+    color:rgb(6, 6, 0);
+    font-size: 18px;
+}
+.contacto p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+.pie {
+    border-top: 1px solid #f7f4f4;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 18px
+}
+.boton {
+    display: inline-block;
+    background-color: rgb(247, 238, 227);
+    color: rgb(235, 158, 158);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 12px;
+}
+.boton:hover {
+    background-color: #e9bae3;
+}
+.pie p {
+    color: #414040;
+    margin:15px 0 5px;
+    font-size: 14px;
+}
